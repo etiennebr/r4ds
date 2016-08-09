@@ -417,7 +417,7 @@ There are many functions for creating new variables that you can use with `mutat
 
 *   Ranking: there are a number of ranking functions, but you should 
     start with `min_rank()`. It does the most usual type of ranking 
-    (e.g. 1st, 2nd, 2nd, 4th). The default gives smallest values the small
+    (e.g. 1st, 2nd, 3rd, 4th). The default gives smallest values the small
     ranks; use `desc(x)` to give the largest values the smallest ranks. 
     If `min_rank()` doesn't do what you need, look at the variants 
     `row_number()`, `dense_rank()`, `percent_rank()`, `cume_dist()`,  
